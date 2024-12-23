@@ -34,6 +34,6 @@ The `kmeans` function returns a list of labels for the query dataset based upon 
                        which metric they want the algorithm to use.<br><br>
 
 ## Tester File
-The `tester.py` file allows the user to see the following results.
+The `tester.py` file allows the user to see the following results:
 - The accuracy of the `knn` function on the validation and test datasets.
 - The accuracy and f1-score of the `kmeans` function on the validation and test datasets.
