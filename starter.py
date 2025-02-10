@@ -353,8 +353,8 @@ def label_cluster(cluster):
  Purpose: Returns a an avg f-measure value given a matrix 
 
  Notes:
- - precision, recall, and f-measure are set to 0 as default 
- - so if there is a lack of clustering for a value, the f_measure becomes significantly worse :(
+ - Precision, recall, and f-measure are set to 0 as default 
+ - If there is a lack of clustering for a value, the f_measure is worse
 '''
 def f_measure(matrix):
     tot_f_measure = 0 
@@ -369,7 +369,7 @@ def f_measure(matrix):
  Purpose: Returns the f_measure for the real_label value passed in 
 
  Notes:
- - precision, recall, and f-measure are set to 0 as default
+ - Precision, recall, and f-measure are set to 0 as default
 '''
 def f_measure_helper(real_label, matrix):
     # Get true positive value
